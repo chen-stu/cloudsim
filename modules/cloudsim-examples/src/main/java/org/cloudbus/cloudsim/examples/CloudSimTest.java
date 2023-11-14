@@ -150,7 +150,6 @@ public class CloudSimTest {
             broker.submitVmList(vmlist);
             broker.submitCloudletList(cloudletList);
             CloudSim.startSimulation();
-
             List<Cloudlet> newList = broker.getCloudletReceivedList();
             CloudSim.stopSimulation();
 
